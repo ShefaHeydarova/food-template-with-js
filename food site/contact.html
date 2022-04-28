@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Restaurant</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header>
+      <nav class="container">
+        <div id="logo">Logo</div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="menu.html">menu</a></li>
+            <li><a href="about.html">about</a></li>
+            <li id="pages">
+              <a href="#">
+                pages
+                <span>
+                  <i
+                    class="fa-solid fa-caret-down"
+                    style="font-weight: 600;"
+                  ></i>
+                </span>
+                <ul class="sub-menu" id="block-page">
+                  <li><a href="reservation.html">reservation</a></li>
+                  <li><a href="stuff.html">stuff</a></li>
+                  <li><a href="gallery.html">gallery</a></li>
+                </ul>
+              </a>
+            </li>
+            <li id="blog">
+              <a href="#">
+                blog
+                <span>
+                  <i
+                    class="fa-solid fa-caret-down"
+                    style="font-weight: 600;"
+                  ></i>
+                </span>
+                <ul class="sub-menu" id="block-blog">
+                  <li><a href="blog.html">blog</a></li>
+                  <li><a href="blog-detail.html">blog single</a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="active"><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
+        <div class="ham-menu" id="hambar">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </div>
+      </nav>
+      <div class="container res-menu"  id="res-menu">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="menu.html">menu</a></li>
+          <li><a href="about.html">about</a></li>
+          <li id="res-pages">
+            <a href="#">
+              pages
+              <span>
+                <i
+                  class="fa-solid fa-caret-down"
+                  style="font-weight: 600;"
+                ></i>
+              </span>
+              <ul class="sub-menu" id="res-block-page">
+                <li><a href="reservation.html">reservation</a></li>
+                <li><a href="stuff.html">stuff</a></li>
+                <li><a href="gallery.html">gallery</a></li>
+              </ul>
+            </a>
+          </li>
+          <li id="res-blog">
+            <a href="#">
+              blog
+              <span>
+                <i
+                  class="fa-solid fa-caret-down"
+                  style="font-weight: 600;"
+                ></i>
+              </span>
+              <ul class="sub-menu" id="res-block-blog">
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="blog-detail.html">blog single</a></li>
+              </ul>
+            </a>
+          </li>
+          <li class="active"><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- ALL BG -->
+    <div id="all-bg">
+        
+        <div class="container">
+         <h1>Contact</h1>
+        </div>
+       
+      </div>
+
+  <!-- Contact form  -->
+
+  <section id="contact-form">
+      <div class="container">
+        <div class="heading-title">
+            <h2>contact</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              iusto!
+            </p>
+          </div>
+          <div>
+              <form action="">
+                  <div><input type="text" placeholder="Your Name"></div>
+                  <div><input type="email" placeholder="Your Email"></div>
+                  <div>
+                      <select name="" id="">
+                        <option disabled="" selected="">Please Select Person*</option>
+                          <option value="">1</option>
+                          <option value="">2</option>
+                          <option value="">3</option>
+                          <option value="">4</option>
+                          <option value="">5</option>
+                      </select>
+                  </div>
+                  <div><textarea name="" id="" rows="4" placeholder="Your Message"></textarea></div>
+                  <div class="center"><button type="button">SEND MESSAGE</button></div>
+              </form>
+          </div>
+      </div>
+  </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <section id="orange">
+        <div class="container dGrid">
+          <div class="orange-contact">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <p>Phone</p>
+              <p>+01 234-567-8910</p>
+            </div>
+          </div>
+          <div class="orange-contact">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <p>Email</p>
+              <p> yourmail@gmail.com</p>
+            </div>
+          </div>
+          <div class="orange-contact">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <p>Location</p>
+              <p> 800, Lorem Street, US</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+              <div class="container dGrid-contact">
+                <div class="contact-box">
+                  <h3>ABOUT US</h3>
+                  <hr>
+                  <p id="footer-area">Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui.</p>
+                </div>
+                <div class="contact-box">
+                  <h3>SUBSCRIBE</h3>
+                  <hr>
+                  <form >
+                    <div> <input type="email" placeholder="Email Address..."> </div>
+                    <div><button type="button" class="btn">subscribe</button></div>
+                  </form>
+                  <ul class="social-menu">
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                  </ul>
+                </div>
+                <div class="contact-box">
+                  <h3>CONTACT INFORMATION</h3>
+                  <hr>
+                  <p id="lead">
+                    Ipsum Street, Lorem Tower, 
+                    MO, Columbia, 508000 <br/>
+                    +01 2000 800 9999 <br/>
+                    info@admin.com</p>
+                </div>
+                <div class="contact-box">
+                  <h3>OPENING HOURS</h3>
+                  <hr>
+                  <p class="text-color">Monday: Closed</p>
+                  <p class="text-color">Tue-Wed : 9:Am - 10PM</p>
+                  <p class="text-color">Thu-Fri : 9:Am - 10PM</p>
+                  <p class="text-color">Sat-Sun : 5:PM - 10PM</p>
+                </div>
+              </div>
+      </section>
+
+      <section id="footer">
+         <p>All Rights Reserved. © 2022</p>
+      </section>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
